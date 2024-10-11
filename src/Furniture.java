@@ -34,6 +34,13 @@ public class Furniture {
     public void setPrice( double price){
         this.price=price;
     }
-
-
+    public void setMaterial( String material){
+        this.material=color;
+    }
+    public void setWeight( double weight){
+        this.weight=weight;
+    }
+    public void setStyle( String style){
+        this.style=style;
+    }
 }

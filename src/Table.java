@@ -16,6 +16,9 @@ public class Table extends Furniture {
     public void setShape(String shape){
         this.shape=shape;
     }
+    public void setNumberOLegs(int numberOfLegs){
+        this.numberOfLegs=numberOfLegs;
+    }
     public String toString() {
         return "Table{" +
                 " material='" + super.getMaterial() + '\'' +

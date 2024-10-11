@@ -15,6 +15,9 @@ public class Wardrobe extends Furniture {
     public void setNumberOfDoors(int numberOfDoors){
         this.numberOfDoors=numberOfDoors;
     }
+    public void setOpeningType(String openingType){
+        this.openingType=openingType;
+    }
     public String toString() {
         return "Wardrobe{" +
                 " material='" + super.getMaterial() + '\'' +
